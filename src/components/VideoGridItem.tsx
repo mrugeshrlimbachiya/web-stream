@@ -1,6 +1,6 @@
 import { formatDuration } from "../utils/formatDuration";
 
-type VideoGridItem = {
+type VideoGridItemProps = {
   id: string;
   title: string;
   channel: {
